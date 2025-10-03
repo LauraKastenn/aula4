@@ -6,6 +6,8 @@ if ($_SERVER ['REQUEST_METHOD']=="POST"){
     $user -> register($_POST ['nome'],$_POST['email'], $POST ['password']);
     header ["Location: login.php"];
 }
+
+if (image->)
 ?>
 
 
